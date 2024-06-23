@@ -1,0 +1,50 @@
+/*style.css */
+.navbar-brand{
+  font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Rubik Distressed', cursive;
+color: white;
+}
+
+#navigation{
+  background-color: #22A39F;
+}
+.introhead{
+  font-family: monospace;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-left: 10%;
+  margin: 5%;
+}
+#intro{
+  font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Mukta', sans-serif;
+}
+#pictures{
+  background-color: #434242;
+  text-align: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Solway', serif;
+}
+.royal{
+
+}
+.bikesimage{
+  text-align: left;
+  color: #F3EFE0;
+  padding: 3%;
+}
+.cost{
+  font-family: sans-serif;
+}
+.bikes{
+  padding:3%;
+  margin: 2rem;
+  border-radius: 5%;
+}
+.click{
+  color: #F3EFE0;
+}
+.white-section{
+    background-color: #fff;
+    color: #bbb;
+}

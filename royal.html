@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>ROYAL ENFIELD</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&family=Rubik+Distressed&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/0d702c4e49.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <section id="navigation">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#"><i class="fa-solid fa-motorcycle"></i> ROYAL ENFIELD</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./bullet.html">See bikes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./book.html">Book now</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+
+  <!-- Carousel -->
+  <section id="slides">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <img src="moto1.jpg" class="d-block w-100" alt="Motorcycle 1">
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="moto2.jpg" class="d-block w-100" alt="Motorcycle 2">
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="moto3.jpg" class="d-block w-100" alt="Motorcycle 3">
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="moto4.jpg" class="d-block w-100" alt="Motorcycle 4">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Book Bikes Form -->
+  <section id="booking-form">
+    <div class="container">
+      <h2>Book Your Bike</h2>
+      <form action="submit_booking.php" method="post">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name:</label>
+          <input type="text" id="name" name="name" class="form-control" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email:</label>
+          <input type="email" id="email" name="email" class="form-control" required>
+        </div>
+        <div class="mb-3">
+          <label for="phone" class="form-label">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" class="form-control" required>
+        </div>
+        <div class="mb-3">
+          <label for="bike" class="form-label">Select Bike:</label>
+          <select id="bike" name="bike" class="form-control" required>
+            <option value="Classic 350">Classic 350</option>
+            <option value="Bullet">Bullet</option>
+            <option value="Hunter">Hunter</option>
+            <option value="Himalayan">Himalayan</option>
+            <option value="Interceptor">Interceptor</option>
+            <option value="Continental">Continental</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Book Now</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Bike Pictures -->
+  <section id="pictures">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <a href="royal_efield/classic.html"><h2 class="head">Classic 350</h2></a>
+            <img src="classic.jpeg" class="card-img-top" alt="Classic 350">
+            <div class="card-body">
+              <h4 class="cost">$1.9 lakh onwards</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <a href="royal_efield/bullet.html"><h2 class="head">Bullet</h2></a>
+            <img src="bullet.jpg" class="card-img-top" alt="Bullet">
+            <div class="card-body">
+              <h4 class="cost">$1.7 lakh onwards</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <a href="royal_efield/hunter.html"><h2 class="head">Hunter</h2></a>
+            <img src="hunter.jpg" class="card-img-top" alt="Hunter">
+            <div class="card-body">
+              <h4 class="cost">$2.1 lakh onwards</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <a href="royal_efield/himalayan.html"><h2 class="head">Himalayan</h2></a>
+            <img src="himalayan.jpg" class="card-img-top" alt="Himalayan">
+            <div class="card-body">
+              <h4 class="cost">$3.3 lakh onwards</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <a href="royal_efield/interceptar.html"><h2 class="head">Interceptor</h2></a>
+            <img src="interceptor.jpg" class="card-img-top" alt="Interceptor">
+            <div class="card-body">
+              <h4 class="cost">$2.5 lakh onwards</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <a href="royal_efield/continental.html"><h2 class="head">Continental</h2></a>
+            <img src="Continental.jpg" class="card-img-top" alt="Continental">
+            <div class="card-body">
+              <h4 class="cost">$3.5 lakh onwards</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="click">Please click on the name to see more details.</p>
+    </div>
+  </section>
+
+  <!-- Introduction -->
+  <section id="intro">
+    <h3 class="introhead">Work Hard with Silence Let Your “Bullet” Make all the Noise.!</h3>
+    <ul>
+      <li>Royal Enfield is an Indian multinational motorcycle manufacturing company headquartered in Chennai, Tamil Nadu, India. The company is the oldest global motorcycle brand in continuous production and operates manufacturing plants in Chennai in India.</li>
+      <li>The first Royal Enfield motorcycle was built in 1901 by The Enfield Cycle Company of Redditch, Worcestershire, England.</li>
+      <li>Royal Enfield is a global brand, with a presence in over 60 countries and a strong following among motorcycle enthusiasts.</li>
+      <li>Royal Enfield motorcycles are known for their classic styling, rugged build quality, and distinctive thumping sound.</li>
+      <li>The company offers a range of motorcycles, including classic models like the Bullet and modern classics like the Interceptor and Continental GT.</li>
+    </ul>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact">
+    <h3 class="conhead">Contact Me:</h3>
+    <form action="submit_contact.php" method="post">
+      <div class="mb-3">
+        <label for="name" class="form-label">Name:</label>
+        <input type="text" id="name" name="name" class="form-control" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email:</label>
+        <input type="email" id="email" name="email" class="form-control" required>
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Message:</label>
+        <textarea id="message" name="message" class="form-control" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Created by Sujan</p>
+  </footer>
+
+</body>
+
+</html>

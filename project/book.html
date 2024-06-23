@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Your Bike</title>
+</head>
+<body>
+  <h2>Book Your Bike</h2>
+  <form action="http://localhost:3000/book" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required><br><br>
+    <label for="bike">Select Bike:</label>
+    <select id="bike" name="bike" required>
+      <option value="Classic 350">Classic 350</option>
+      <option value="Bullet">Bullet</option>
+      <option value="Hunter">Hunter</option>
+      <option value="Himalayan">Himalayan</option>
+      <option value="Interceptor">Interceptor</option>
+      <option value="Continental">Continental</option>
+    </select><br><br>
+    <button type="submit">Book Now</button>
+  </form>
+</body>
+</html>
